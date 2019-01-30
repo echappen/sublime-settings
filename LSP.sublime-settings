@@ -1,0 +1,9 @@
+{
+	"clients":
+	{
+		"javascript-typescript-langserver":
+		{
+			"enabled": true
+		}
+	}
+}

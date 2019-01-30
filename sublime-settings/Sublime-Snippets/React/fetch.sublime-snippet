@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+fetch('/${1:path}', {
+  method: '${2:GET}',
+  headers: commonHeaders(),
+  body: JSON.stringify(data)
+}).then(function(response) {
+  return response.json()
+}).then(function(json) {
+  if (!json.error) {
+    // handle success
+  } else {
+    // handle failure
+  }
+}).catch((error) => {
+  // handle fetch error
+})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>fetch</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

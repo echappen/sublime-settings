@@ -1,0 +1,44 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+
+export class MyComponent extends React.PureComponent {
+    render() {
+        return(
+
+        );
+    }
+};
+
+MyComponent.propTypes = {};
+
+export function mapStateToProps(state) {
+    return {};
+}
+
+export function mapDispatchToProps(dispatch) {
+    return {
+        actions: bindActionCreators({
+        // add action creators here
+        }, dispatch)
+    };
+}
+
+export function areStatesEqual(prev, next) {
+    // return true;
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps,
+    null,
+    { areStatesEqual }
+)(MyComponent);
+]]></content>
+    <tabTrigger>react redux</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
+

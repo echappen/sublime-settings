@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+add_index :${1:table_name}, :${2:column_name}, options = {}
+]]></content>
+  <tabTrigger>add_index</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>

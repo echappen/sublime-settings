@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react'
+import { Component } from 'react'
+import { connect } from 'react-redux'
+
+export interface Props {
+}
+
+interface State {
+}
+
+export class MyComponent extends Component<Props, State> {
+  render() {
+    return(
+
+    )
+  }
+}
+
+const mapStateToProps = () => ({})
+
+export default connect(mapStateToProps)(MyComponent)
+]]></content>
+  <tabTrigger>react ts</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
+

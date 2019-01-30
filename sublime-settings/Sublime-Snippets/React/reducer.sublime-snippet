@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+export default function reducer(state = initialState, action = {}){
+  const { type, payload } = action
+
+  switch(type){
+  case ${1:AN_ACTION_TYPE}:
+    return {
+      ...state
+    }
+  default:
+    return state
+  }
+};
+]]></content>
+  <tabTrigger>reducer</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

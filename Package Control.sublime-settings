@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"debug": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Babel",
+		"BlameHighlighter",
+		"Git",
+		"GotoWindow",
+		"LSP",
+		"MarkdownPreview",
+		"Package Control",
+		"Pretty JSON",
+		"Pretty Ruby",
+		"RuboCop",
+		"RubyTest",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeLinter-rubocop",
+		"Swift",
+		"TestRSpec",
+		"TypeScript Syntax"
+	]
+}

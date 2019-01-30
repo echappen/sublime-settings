@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+
+const MyComponent = (props) => ();
+
+MyComponent.propTypes = {};
+
+export default MyComponent;
+]]></content>
+  <tabTrigger>react function</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

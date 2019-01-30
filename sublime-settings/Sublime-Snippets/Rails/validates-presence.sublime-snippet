@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+validates :${1:name}, presence: true
+]]></content>
+  <tabTrigger>validates-presence</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>

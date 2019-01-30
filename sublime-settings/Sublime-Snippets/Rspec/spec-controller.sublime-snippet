@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+require 'rails_helper'
+
+describe ${1:Some}Controller do
+  ${2}
+end
+]]></content>
+  <tabTrigger>spec-controller</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>

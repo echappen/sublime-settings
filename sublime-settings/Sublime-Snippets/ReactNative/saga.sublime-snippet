@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+export function* myFunction() {
+  try {
+
+    yield put({ type: 'MYSAGA_REQUESTED'})
+
+    yield put({ type: 'MYSAGA_SUCCEEDED'})
+
+  } catch (e) {
+
+    yield put({
+      type: 'MYSAGA_FAILED',
+      payload: e.message
+    })
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>saga</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"Babel Snippets",
+		"Better CoffeeScript",
+		"CoffeeScriptHaml",
+		"Git",
+		"HTMLBeautify",
+		"Package Control",
+		"Pretty JSON",
+		"React ES6 Snippets",
+		"Sass",
+		"SCSS",
+		"Solarized Color Scheme",
+		"Theme - Soda",
+		"Theme - Soda SolarizedDark",
+		"Theme - Sodarized",
+		"Theme - Solarized Space",
+		"Theme - Spacegray"
+	]
+}
