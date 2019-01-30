@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 
 export class MyComponent extends React.PureComponent {
     render() {
-      return(
+        return(
 
-      );
+        );
     }
 }
 
