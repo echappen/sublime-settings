@@ -1,10 +1,12 @@
 <snippet>
   <content><![CDATA[
-import React from 'react';
+import React from 'react'; // eslint-disable-line
 import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
 
-const MyComponent = (props) => ();
+const MyComponent = (props) => {
+    return (
+    );
+};
 
 MyComponent.propTypes = {};
 

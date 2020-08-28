@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
+		"knex"
 	],
 	"tab_size": 4
 }

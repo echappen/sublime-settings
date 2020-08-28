@@ -6,7 +6,7 @@
 		{
 		},
 		"file_regex": "([^ ]*\\.rb):?(\\d*)",
-		"shell_cmd": "( cd /Users/echappen/src/gitlab.com/officeluv/officeluv-admin && /usr/bin/env ruby -S bundle exec spring rspec app/admin/recurring_requisition.rb)",
+		"shell_cmd": "( cd /Users/echappen/src/gitlab.com/officeluv/officeluv-admin && ./bin/rspec app/admin/requisition.rb)",
 		"syntax": "Packages/TestRSpec/themes/TestConsole.tmLanguage",
 		"working_dir": "/Users/echappen/src/gitlab.com/officeluv/officeluv-admin"
 	}

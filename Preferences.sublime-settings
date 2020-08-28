@@ -42,11 +42,12 @@
 		"script"
 	],
 	"font_face": "Courier New",
-	"font_size": 19.0,
+	"font_size": 20.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"LSP",
 		"Vintage"
 	],
 	"indent_guide_options":

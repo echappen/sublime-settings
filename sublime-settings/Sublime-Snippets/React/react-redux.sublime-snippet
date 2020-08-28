@@ -1,16 +1,13 @@
 <snippet>
   <content><![CDATA[
-import React from 'react';
+import React from 'react'; //eslint-disable-line
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-export class MyComponent extends React.PureComponent {
-    render() {
-        return(
-
-        );
-    }
+const MyComponent = (props) => {
+    return (
+    );
 };
 
 MyComponent.propTypes = {};
